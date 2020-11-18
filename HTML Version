@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculator</title>
+</head>
+<body>
+<div class = "wrap">
+	<form name = "interface">
+	<input type = "button" value = "9" onclick = "interface.display.value+='9'">
+	<input type = "button" value = "8" onclick = "interface.display.value+='8'">
+	<input type = "button" value = "7" onclick = "interface.display.value+='7'">
+	<input type = "button" value = "+" onclick = "interface.display.value+='+'">
+	<br><br>
+	<input type = "button" value = "6" onclick = "interface.display.value+='6'">
+	<input type = "button" value = "5" onclick = "interface.display.value+='5'">
+	<input type = "button" value = "4" onclick = "interface.display.value+='4'">
+	<input type = "button" value = "-" onclick = "interface.display.value+='-'">
+	<br><br>
+	<input type = "button" value = "3" onclick = "interface.display.value+='3'">
+	<input type = "button" value = "2" onclick = "interface.display.value+='2'">
+	<input type = "button" value = "1" onclick = "interface.display.value+='1'">
+	<input type = "button" value = "*" onclick = "interface.display.value+='*'">
+	<br><br>
+	<input type = "button" value = "0" onclick = "interface.display.value+='0'">
+	<input type = "button" value = "/" onclick = "interface.display.value+='/'">
+	<input type = "button" value = "%" onclick = "interface.display.value+='%'">
+	<input type = "button" value = "=" onclick = "interface.display.value+=eval(cal.display.value">
+	<br><br>
+	<input type = "button" value = "Clear" onclick = "cal.display.value=''" id = "del">
+</body>
+</html>
